@@ -1114,3 +1114,173 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.1ms | Allocations: 10811)
 
 
+Started GET "/tasks/new" for ::1 at 2023-08-04 15:47:52 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/tasks/new"):
+  
+Started GET "/" for ::1 at 2023-08-04 15:47:57 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/chakama/.rvm/gems/ruby-3.2.2/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/chakama/.rvm/gems/ruby-3.2.2/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.6ms | Allocations: 281)
+Completed 200 OK in 9ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2248)
+
+
+Started GET "/" for ::1 at 2023-08-04 15:47:58 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/chakama/.rvm/gems/ruby-3.2.2/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/chakama/.rvm/gems/ruby-3.2.2/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.5ms | Allocations: 272)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 903)
+
+
+Started GET "/cable" for ::1 at 2023-08-04 15:47:58 +0200
+Started GET "/cable" [WebSocket] for ::1 at 2023-08-04 15:47:59 +0200
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/cable" for ::1 at 2023-08-04 15:47:59 +0200
+Started GET "/cable" [WebSocket] for ::1 at 2023-08-04 15:47:59 +0200
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/" for ::1 at 2023-08-04 15:48:00 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/chakama/.rvm/gems/ruby-3.2.2/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/chakama/.rvm/gems/ruby-3.2.2/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 216)
+
+
+Started GET "/" for ::1 at 2023-08-04 15:48:01 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/chakama/.rvm/gems/ruby-3.2.2/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/chakama/.rvm/gems/ruby-3.2.2/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 214)
+
+
+Started GET "/" for ::1 at 2023-08-04 15:48:01 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/chakama/.rvm/gems/ruby-3.2.2/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/chakama/.rvm/gems/ruby-3.2.2/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 14)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 214)
+
+
+Started GET "/" for ::1 at 2023-08-04 15:48:27 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/chakama/.rvm/gems/ruby-3.2.2/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/chakama/.rvm/gems/ruby-3.2.2/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.6ms | Allocations: 489)
+Completed 200 OK in 13ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 4238)
+
+
+Started GET "/" for ::1 at 2023-08-04 15:48:28 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/chakama/.rvm/gems/ruby-3.2.2/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/chakama/.rvm/gems/ruby-3.2.2/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 272)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 907)
+
+
+Started GET "/" for ::1 at 2023-08-04 15:48:34 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/chakama/.rvm/gems/ruby-3.2.2/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/chakama/.rvm/gems/ruby-3.2.2/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 217)
+
+
+Started GET "/cable" for ::1 at 2023-08-04 15:48:58 +0200
+Started GET "/cable" [WebSocket] for ::1 at 2023-08-04 15:48:58 +0200
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/cable" for ::1 at 2023-08-04 15:48:59 +0200
+Started GET "/cable" [WebSocket] for ::1 at 2023-08-04 15:48:59 +0200
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/" for ::1 at 2023-08-04 15:49:26 +0200
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:15
+  Rendered posts/index.html.erb within layouts/application (Duration: 13.9ms | Allocations: 6022)
+  Rendered layout layouts/application.html.erb (Duration: 112.1ms | Allocations: 53722)
+Completed 200 OK in 116ms (Views: 114.1ms | ActiveRecord: 1.9ms | Allocations: 55482)
+
+
+Started GET "/posts/1" for ::1 at 2023-08-04 15:49:33 +0200
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:63:in `set_post'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 30.0ms | Allocations: 9536)
+Completed 200 OK in 46ms (Views: 30.8ms | ActiveRecord: 0.3ms | Allocations: 14994)
+
+
+Started GET "/posts" for ::1 at 2023-08-04 15:49:35 +0200
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:15
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1060)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 10320)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.2ms | Allocations: 10595)
+
+
+Started GET "/posts/1" for ::1 at 2023-08-04 15:49:40 +0200
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:63:in `set_post'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 90)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 9312)
+Completed 200 OK in 21ms (Views: 18.1ms | ActiveRecord: 0.2ms | Allocations: 10066)
+
+
+Started GET "/posts" for ::1 at 2023-08-04 15:49:42 +0200
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:15
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1055)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 10285)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.2ms | Allocations: 10556)
+
+
+Started GET "/cable" for ::1 at 2023-08-04 15:49:58 +0200
+Started GET "/cable" [WebSocket] for ::1 at 2023-08-04 15:49:59 +0200
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/cable" for ::1 at 2023-08-04 15:49:59 +0200
+Started GET "/cable" [WebSocket] for ::1 at 2023-08-04 15:49:59 +0200
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/posts.json" for ::1 at 2023-08-04 15:53:12 +0200
+Processing by PostsController#index as JSON
+  Rendering posts/index.json.jbuilder
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.json.jbuilder:1
+  Rendered collection of posts/_post.json.jbuilder [3 times] (Duration: 0.8ms | Allocations: 618)
+  Rendered posts/index.json.jbuilder (Duration: 5.4ms | Allocations: 3625)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.6ms | Allocations: 5092)
+
+
+Started GET "/posts/1" for ::1 at 2023-08-04 15:55:22 +0200
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:63:in `set_post'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 30.1ms | Allocations: 20923)
+Completed 200 OK in 35ms (Views: 31.5ms | ActiveRecord: 0.2ms | Allocations: 22280)
+
+
+Started GET "/posts/1.json" for ::1 at 2023-08-04 15:55:28 +0200
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:63:in `set_post'
+  Rendering posts/show.json.jbuilder
+  Rendered posts/_post.json.jbuilder (Duration: 2.7ms | Allocations: 196)
+  Rendered posts/show.json.jbuilder (Duration: 5.1ms | Allocations: 488)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.1ms | Allocations: 1284)
+
+
